@@ -1,24 +1,19 @@
-<?xml version='1.0' standalone='yes'?>
+<?xml version='1.0' encoding='UTF-8'?>
 <extensions>
-  <applets>
-    <applet name="CustomClockHelper" version="0.28.001">
-      <url>http://lms.hashsum.org/CustomClockHelper_0_28_001.zip</url>
-      <sha>fae3408dcd16a31bd09828f92f6500fedbe560a6</sha>
-    </applet>
-  </applets>
-  <plugins>
-    <plugin maxTarget="*" version="2.11.94" name="CustomClockHelper" minTarget="8.3.0">
-      <link>https://wiki.lyrion.org/index.php/Custom_Clock_applet</link>
-      <email>erland@isaksson.info</email>
-      <changes lang="EN">- Available for free, no longer requires a license</changes>
-      <title lang="EN">Custom Clock Helper</title>
-      <sha>3f0d6ea666b5d37e85899411ea65784f94b0021c</sha>
-      <url>http://downloads.isaksson.info/download/do/downloadapplicalimservercustomclocename=CustomClockHelper-2.11.94.zip</url>
-      <creator>Erland Isaksson</creator>
-      <desc lang="EN">This is a helper plugin for the Custom Clock screen saver applet, it makes it possible to create your own clock styles and modify the existing styles (Controller, Radio, Touch, SqueezePlay)</desc>
-    </plugin>
-  </plugins>
-  <details>
-    <title lang="EN">Hashsum LMS stuff</title>
-  </details>
+	<details>
+		<title lang="EN">Hashsum LMS stuff</title>
+	</details>
+	<plugins>
+		<plugin name="CustomClockHelper" version="2.11.94" minTarget="8.3.0" maxTarget="*">
+			<title lang="EN">Custom Clock Helper</title>
+			<desc lang="EN">This is a helper plugin for the Custom Clock screen saver applet, it makes it possible to create your own clock styles and modify the existing styles (Controller, Radio, Touch, SqueezePlay)</desc>
+			<changes lang="EN">- Available for free, no longer requires a license</changes>
+			<creator>Erland Isaksson</creator>
+			<email>erland@isaksson.info</email>
+			<url>http://downloads.isaksson.info/download/do/downloadapplication?name=slimservercustomclockhelper&filename=CustomClockHelper-2.11.94.zip</url>
+			<sha>3f0d6ea666b5d37e85899411ea65784f94b0021c</sha>
+			<link>https://wiki.lyrion.org/index.php/Custom_Clock_applet</link>
+		</plugin>
+	</plugins>
 </extensions>
+ 
