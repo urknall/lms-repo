@@ -1,18 +1,18 @@
 <?xml version='1.0' standalone='yes'?>
 <extensions>
+  <plugins>
+    <plugin minTarget="8.3.0" version="2.28.001" name="CustomClockHelper" maxTarget="*">
+      <link>https://wiki.lyrion.org/index.php/Custom_Clock_applet</link>
+      <sha>e5c361ed6a2933ff47b8aa7dffe7bf8eedaff41f</sha>
+      <title lang="EN">Custom Clock Helper</title>
+      <creator>Erland Isaksson</creator>
+      <desc lang="EN">This is a helper plugin for the Custom Clock screen saver applet, it makes it possible to create your own clock styles and modify the existing styles (Controller, Radio, Touch, SqueezePlay)</desc>
+      <url>https://urknall.github.io/lms-repo/CustomClockHelper_2_28_001.zip</url>
+      <email>erland@isaksson.info</email>
+      <changes lang="EN">- Clock Styles Updates</changes>
+    </plugin>
+  </plugins>
   <details>
     <title lang="EN">Hashsum LMS stuff</title>
   </details>
-  <plugins>
-    <plugin version="2.28.001" name="CustomClockHelper" maxTarget="*" minTarget="8.3.0">
-      <email>erland@isaksson.info</email>
-      <changes lang="EN">- Clock Styles Updates</changes>
-      <url>https://urknall.github.io/lms-repo/CustomClockHelper_2_28_001.zip</url>
-      <link>https://wiki.lyrion.org/index.php/Custom_Clock_applet</link>
-      <sha>3e1885fd766ffb8863d264c1d70734c5ae09b798</sha>
-      <title lang="EN">Custom Clock Helper</title>
-      <desc lang="EN">This is a helper plugin for the Custom Clock screen saver applet, it makes it possible to create your own clock styles and modify the existing styles (Controller, Radio, Touch, SqueezePlay)</desc>
-      <creator>Erland Isaksson</creator>
-    </plugin>
-  </plugins>
 </extensions>
