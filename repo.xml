@@ -1,27 +1,27 @@
 <?xml version='1.0' standalone='yes'?>
 <extensions>
-  <plugins>
-    <plugin name="CustomClockHelper" version="2.29.0" maxTarget="*" minTarget="8.3.0">
-      <changes lang="EN">- Clock Styles Updates</changes>
-      <sha>ed7fcc3e2ba4f5c25ce3bf664867790d3b908134</sha>
-      <url>https://urknall.github.io/lms-repo/CustomClockHelper_2_29_0.zip</url>
-      <creator>Erland Isaksson</creator>
-      <link>https://wiki.lyrion.org/index.php/Custom_Clock_applet</link>
-      <email>erland@isaksson.info</email>
-      <title lang="EN">Custom Clock Helper</title>
-      <desc lang="EN">This is a helper plugin for the Custom Clock screen saver applet, it makes it possible to create your own clock styles and modify the existing styles (Controller, Radio, Touch, SqueezePlay)</desc>
-    </plugin>
-    <plugin minTarget="7.4" maxTarget="*" name="SuperDateTimeMacroExtender" version="1.0">
-      <title lang="EN">SuperDateTime Macro Extender</title>
-      <desc lang="EN">Adds JSON-backed macro expansion to SuperDateTime</desc>
-      <url>https://urknall.github.io/lms-repo/SuperDateTimeMacroExtender_1_0.zip</url>
-      <link>https://github.com/urknall/SuperDateTimeMacroExtender</link>
-      <creator>Reiner Paulus</creator>
-      <sha>199a6a69214755fcaf846f41c84c9dc0e307b40b</sha>
-      <changes lang="EN">- Initial release</changes>
-    </plugin>
-  </plugins>
   <details>
     <title lang="EN">Hashsum LMS stuff</title>
   </details>
+  <plugins>
+    <plugin name="CustomClockHelper" maxTarget="*" version="2.29.0" minTarget="8.3.0">
+      <sha>ed7fcc3e2ba4f5c25ce3bf664867790d3b908134</sha>
+      <title lang="EN">Custom Clock Helper</title>
+      <creator>Erland Isaksson</creator>
+      <desc lang="EN">This is a helper plugin for the Custom Clock screen saver applet, it makes it possible to create your own clock styles and modify the existing styles (Controller, Radio, Touch, SqueezePlay)</desc>
+      <link>https://wiki.lyrion.org/index.php/Custom_Clock_applet</link>
+      <changes lang="EN">- Clock Styles Updates</changes>
+      <email>erland@isaksson.info</email>
+      <url>https://urknall.github.io/lms-repo/CustomClockHelper_2_29_0.zip</url>
+    </plugin>
+    <plugin maxTarget="*" version="1.0" name="SuperDateTimeMacroExtender" minTarget="7.4">
+      <title lang="EN">SuperDateTime Macro Extender</title>
+      <creator>Reiner Paulus</creator>
+      <sha>50c6cee5a80e447172b9558987e214c0974e5c91</sha>
+      <url>https://urknall.github.io/lms-repo/SuperDateTimeMacroExtender_1_0.zip</url>
+      <changes lang="EN">- Initial release</changes>
+      <desc lang="EN">Adds JSON-backed macro expansion to SuperDateTime</desc>
+      <link>https://github.com/urknall/SuperDateTimeMacroExtender</link>
+    </plugin>
+  </plugins>
 </extensions>
