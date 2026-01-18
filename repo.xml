@@ -1,23 +1,23 @@
 <?xml version='1.0' standalone='yes'?>
 <extensions>
   <plugins>
-    <plugin name="CustomClockHelper" version="2.29.0" maxTarget="*" minTarget="8.3.0">
+    <plugin name="CustomClockHelper" minTarget="8.3.0" version="2.29.0" maxTarget="*">
+      <url>https://urknall.github.io/lms-repo/CustomClockHelper_2_29_0.zip</url>
+      <desc lang="EN">This is a helper plugin for the Custom Clock screen saver applet, it makes it possible to create your own clock styles and modify the existing styles (Controller, Radio, Touch, SqueezePlay)</desc>
+      <email>erland@isaksson.info</email>
+      <title lang="EN">Custom Clock Helper</title>
       <creator>Erland Isaksson</creator>
       <changes lang="EN">- Clock Styles Updates</changes>
       <sha>ed7fcc3e2ba4f5c25ce3bf664867790d3b908134</sha>
-      <email>erland@isaksson.info</email>
-      <desc lang="EN">This is a helper plugin for the Custom Clock screen saver applet, it makes it possible to create your own clock styles and modify the existing styles (Controller, Radio, Touch, SqueezePlay)</desc>
-      <title lang="EN">Custom Clock Helper</title>
       <link>https://wiki.lyrion.org/index.php/Custom_Clock_applet</link>
-      <url>https://urknall.github.io/lms-repo/CustomClockHelper_2_29_0.zip</url>
     </plugin>
-    <plugin name="SuperDateTimeMacroExtender" maxTarget="*" minTarget="7.4" version="1.1">
-      <creator>Reiner Paulus</creator>
-      <url>https://urknall.github.io/lms-repo/SuperDateTimeMacroExtender_1_1.zip</url>
-      <link>https://github.com/urknall/SuperDateTimeMacroExtender</link>
+    <plugin name="SuperDateTimeMacroExtender" minTarget="7.4" version="1.1.1" maxTarget="*">
       <desc lang="EN">Fetches values from one or more JSON endpoints and makes them available to SuperDateTime/Custom Clock via sdtMacroString chaining.</desc>
-      <sha>a180bae4fdc8d2914adbaeea5906cbaa2db48a68</sha>
+      <sha>c943c1fb2b8f878a4a20ad0c22cfee152c5e36a4</sha>
+      <url>https://urknall.github.io/lms-repo/SuperDateTimeMacroExtender_1_1_1.zip</url>
+      <creator>Reiner Paulus</creator>
       <changes lang="EN">- Help updated</changes>
+      <link>https://github.com/urknall/SuperDateTimeMacroExtender</link>
       <title lang="EN">SuperDateTime Macro Extender</title>
     </plugin>
   </plugins>
