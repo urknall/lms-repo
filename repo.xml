@@ -17,7 +17,7 @@
     <plugin minTarget="7.4" version="1.1" name="SuperDateTimeMacroExtender" maxTarget="*">
       <url>https://urknall.github.io/lms-repo/SuperDateTimeMacroExtender_1_1.zip</url>
       <sha>14f8d0775e1dde7ef9f38269214cf5266ff22047</sha>
-      <desc lang="EN">Adds JSON-backed macro expansion to SuperDateTime</desc>
+      <desc lang="EN">Fetches values from one or more JSON endpoints and makes them available to SuperDateTime/Custom Clock via sdtMacroString chaining.</desc>
       <link>https://github.com/urknall/SuperDateTimeMacroExtender</link>
       <creator>Reiner Paulus</creator>
       <changes lang="EN">- Initial release</changes>
