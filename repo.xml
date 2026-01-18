@@ -20,7 +20,7 @@
       <desc lang="EN">Fetches values from one or more JSON endpoints and makes them available to SuperDateTime/Custom Clock via sdtMacroString chaining.</desc>
       <link>https://github.com/urknall/SuperDateTimeMacroExtender</link>
       <creator>Reiner Paulus</creator>
-      <changes lang="EN">- Initial release</changes>
+      <changes lang="EN">- Help updated</changes>
       <title lang="EN">SuperDateTime Macro Extender</title>
     </plugin>
   </plugins>
