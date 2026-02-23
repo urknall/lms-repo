@@ -15,7 +15,7 @@
       <sha>cc035b37a63d5e5814f996ca3f2554f63ab7bde3</sha>
       <desc lang="EN">Fetches values from one or more JSON endpoints and makes them available to SuperDateTime/Custom Clock via sdtMacroString chaining.</desc>
       <link>https://github.com/urknall/SuperDateTimeMacroExtender</link>
-      <changes lang="EN">- Help updated</changes>
+      <changes lang="EN">- add support for local JSON files</changes>
       <url>https://urknall.github.io/lms-repo/SuperDateTimeMacroExtender_1_1_2.zip</url>
       <creator>Reiner Paulus</creator>
       <title lang="EN">SuperDateTime Macro Extender</title>
