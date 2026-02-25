@@ -4,25 +4,25 @@
     <title lang="EN">Hashsum LMS stuff</title>
   </details>
   <plugins>
-    <plugin maxTarget="*" version="2.29.1" minTarget="8.3.0" name="CustomClockHelper">
+    <plugin minTarget="8.3.0" name="CustomClockHelper" version="2.29.2" maxTarget="*">
+      <sha>426c1d470a40f04950af4a1307a2de3e4b1678f2</sha>
       <email>erland@isaksson.info</email>
-      <desc lang="EN">This is a helper plugin for the Custom Clock screen saver applet, it makes it possible to create your own clock styles and modify the existing styles (Controller, Radio, Touch, SqueezePlay)</desc>
-      <link>https://wiki.lyrion.org/index.php/Custom_Clock_applet</link>
       <creator>Erland Isaksson</creator>
-      <url>https://urknall.github.io/lms-repo/CustomClockHelper_2_29_1.zip</url>
-      <sha>513a2d347721f562fd11ca9fa3ac5f2d77104d70</sha>
-      <title lang="EN">Custom Clock Helper</title>
       <changes lang="EN">- Clock Styles Updates</changes>
+      <title lang="EN">Custom Clock Helper</title>
+      <url>https://urknall.github.io/lms-repo/CustomClockHelper_2_29_2.zip</url>
+      <link>https://wiki.lyrion.org/index.php/Custom_Clock_applet</link>
+      <desc lang="EN">This is a helper plugin for the Custom Clock screen saver applet, it makes it possible to create your own clock styles and modify the existing styles (Controller, Radio, Touch, SqueezePlay)</desc>
     </plugin>
-    <plugin name="SuperDateTimeMacroExtender" version="1.1.3" minTarget="7.4" maxTarget="*">
-      <category>information</category>
-      <title lang="EN">SuperDateTime Macro Extender</title>
-      <changes lang="EN">- add support for local JSON files</changes>
-      <url>https://urknall.github.io/lms-repo/SuperDateTimeMacroExtender_1_1_3.zip</url>
+    <plugin name="SuperDateTimeMacroExtender" version="1.1.3" maxTarget="*" minTarget="7.4">
+      <desc lang="EN">Fetches values from one or more JSON endpoints and makes them available to SuperDateTime/Custom Clock via sdtMacroString chaining.</desc>
       <sha>77bfc333ae4784c7702b27788e90a4981fd80530</sha>
       <creator>Reiner Paulus</creator>
+      <changes lang="EN">- add support for local JSON files</changes>
+      <title lang="EN">SuperDateTime Macro Extender</title>
+      <url>https://urknall.github.io/lms-repo/SuperDateTimeMacroExtender_1_1_3.zip</url>
+      <category>information</category>
       <link>https://github.com/urknall/SuperDateTimeMacroExtender</link>
-      <desc lang="EN">Fetches values from one or more JSON endpoints and makes them available to SuperDateTime/Custom Clock via sdtMacroString chaining.</desc>
     </plugin>
   </plugins>
 </extensions>
